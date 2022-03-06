@@ -1,0 +1,75 @@
+.hero {
+  padding-top: 92.97px;
+  padding-bottom: 33px;
+  background-color: var(--accent-light-color);
+}
+
+.hero__wrap {
+  background-image: url(../images/hero-fruits.jpg);
+  background-repeat: no-repeat;
+  background-position: left bottom;
+}
+
+.hero__title {
+  font-size: 70px;
+  line-height: 1.29;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.hero__text {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px;
+  text-align: center;
+  width: 640px;
+}
+
+.hero__order {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero__button {
+  margin-left: 20px;
+}
+
+.order-details {
+  display: inline-flex;
+  flex-direction: column;
+}
+
+.order-details__item {
+  display: inline-flex;
+  align-items: center;
+  padding: 17px 46px 17px 33px;
+
+  background-color: var(--white-color);
+  &:not(:last-child) {
+    margin-bottom: 30px;
+  }
+}
+
+.order-details__icon-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  background-color: var(--accent-light-color);
+
+  margin-right: 24px;
+}
+
+.order-details__text {
+  text-align: center;
+  color: var(--black-color);
+}
+
+.order-details__title {
+  font-size: 48px;
+  line-height: 1;
+  text-align: center;
+}
