@@ -1,0 +1,138 @@
+.advantages {
+  padding-top: 96px;
+  padding-bottom: 96px;
+}
+
+.slider {
+  display: flex;
+}
+
+.slider__content {
+  width: 640px;
+}
+
+.slider__title {
+  font-size: 70px;
+  line-height: 1.29;
+  margin-bottom: 30px;
+}
+
+.slider__text {
+  padding-right: 42px;
+  margin-bottom: 40px;
+}
+
+.slider__staff {
+}
+
+.slider__person-title {
+  font-size: 30px;
+  line-height: 1.2;
+  margin-bottom: 3.5px;
+}
+
+.slider__line {
+  display: flex;
+  align-items: center;
+}
+
+.slider__icon {
+  &:not(:last-child) {
+    margin-right: 9.8px;
+  }
+}
+
+.slider__btns {
+  margin-left: 174px;
+  display: flex;
+  align-items: center;
+}
+
+.slider__btn {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  border: 1px solid #cccccc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+  &-dark {
+    margin-left: 26px;
+    border: 1px solid var(--accent-color);
+    background-color: var(--accent-color);
+  }
+}
+
+.slider__persone {
+  margin-left: auto;
+}
+
+.slider__persone-wrap {
+  position: relative;
+}
+
+.slider__persone-img-wrap {
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
+  background-color: var(--accent-light-color);
+  overflow: hidden;
+  position: relative;
+}
+
+.slider__persone-img {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.slider__rate {
+  position: absolute;
+  bottom: 20px;
+  z-index: 9999;
+  padding: 11.45px 21px;
+  box-shadow: -15px 15px 25px rgba(0, 96, 60, 0.04);
+  border-radius: 12px;
+  background-color: var(--white-color);
+}
+
+.slider-rate__star {
+  height: 15px;
+}
+
+.slider-rate__icon {
+  display: inline-block;
+  &:not(:last-child) {
+    margin-right: 6px;
+  }
+}
+
+.slider-rate__users {
+  display: flex;
+  align-items: center;
+  margin-top: 11px;
+}
+
+.slider-rate__user {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background-color: var(--accent-light-color);
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  &:not(:first-child) {
+    margin-left: -10px;
+  }
+  &:hover {
+    z-index: 777;
+  }
+}
+
+.slider-rate__icon {
+  background-color: var(--accebt-light-color);
+}

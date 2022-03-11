@@ -5,9 +5,17 @@
 }
 
 .hero__wrap {
-  background-image: url(../images/hero-fruits.jpg);
+  position: relative;
+
+  background-image: url(../images/hero-fruits.png);
   background-repeat: no-repeat;
   background-position: left bottom;
+}
+
+.hero__img {
+  position: absolute;
+  top: 115px;
+  left: calc(50% - 710px);
 }
 
 .hero__title {
@@ -33,6 +41,22 @@
 
 .hero__button {
   margin-left: 20px;
+  border: 1px solid transparent;
+  transition: all 0.25s linear;
+  &:hover,
+  &:focus {
+    border: 1px solid var(--accent-color);
+    background-color: transparent;
+    color: var(--accent-color);
+    .order-btn__icon {
+      stroke: var(--accent-color);
+    }
+  }
+}
+
+.hero__list-wrap {
+  display: flex;
+  justify-content: flex-end;
 }
 
 .order-details {

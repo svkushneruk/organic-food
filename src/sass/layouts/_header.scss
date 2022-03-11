@@ -23,6 +23,11 @@
 .site-navigation__link {
   line-height: 1.33;
   color: var(--title-color);
+  transition: color 0.25s linear;
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
+  }
 }
 
 .site-actions__icon {
@@ -49,18 +54,37 @@
   align-items: center;
   justify-content: center;
   background-color: var(--accent-light-color);
+  transition: background-color 0.25s linear;
   &:not(:last-child) {
     margin-right: 20px;
   }
+  &:hover,
+  &:focus {
+    background-color: var(--accent-color);
+  }
 }
 
+.site-actions__icon {
+  transition: stroke 0.25s linear;
+  .site-actions__btn:hover &,
+  .site-actions__btn:focus & {
+    stroke: var(--white-color);
+  }
+}
 .site-actions__reg-btn {
   padding: 10px 23px;
   border-radius: 8px;
-  border: none;
+  border: 1px solid transparent;
   background-color: var(--accent-color);
 
   font-size: 18px;
   line-height: 1.1;
+  transition: all 0.25s linear;
   color: var(--white-color);
+  &:hover,
+  &:focus {
+    border: 1px solid var(--accent-color);
+    background-color: transparent;
+    color: var(--accent-color);
+  }
 }
