@@ -3,4 +3,4 @@ parcelRequire=function(e,r,t,n){var i,o="function"==typeof parcelRequire&&parcel
 },{"./../images/hero-fruits.png":[["hero-fruits.59e66bbc.png","O8lE"],"O8lE"],"./../images/line.svg":[["line.e6cda99c.svg","vE9t"],"vE9t"]}],"Focm":[function(require,module,exports) {
 "use strict";require("./sass/main.scss");
 },{"./sass/main.scss":"clu1"}]},{},["Focm"], null)
-//# sourceMappingURL=/organic-food/src.b750b353.js.map
+//# sourceMappingURL=/organic-food/src.2151e62e.js.map
