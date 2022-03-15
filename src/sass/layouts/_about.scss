@@ -88,6 +88,12 @@
   margin-top: 50px;
   text-align: center;
   background-color: transparent;
+  border: 1px solid transparent;
+  transition: border 0.25s linear;
+  &:hover,
+  &:focus {
+    border: 1px solid var(--accent-color);
+  }
 }
 
 .about__img-bg {

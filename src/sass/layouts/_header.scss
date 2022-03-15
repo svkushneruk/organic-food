@@ -30,6 +30,13 @@
   }
 }
 
+.site-logo__icon {
+  transition: transform 0.25s linear;
+  &:hover {
+    transform: scale(1.1);
+  }
+}
+
 .site-actions__icon {
   fill: none;
   stroke: var(--title-color);

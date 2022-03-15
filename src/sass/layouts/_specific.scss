@@ -38,6 +38,19 @@
   margin-right: 20px;
 }
 
+.specific__button {
+  transition: all 0.25s linear;
+  &:hover,
+  &:focus {
+    border: 1px solid var(--accent-color);
+    background-color: transparent;
+    color: var(--accent-color);
+    .order-btn__icon {
+      fill: var(--accent-color);
+    }
+  }
+}
+
 .specific__img-leaves {
   position: absolute;
   bottom: -143px;

@@ -54,6 +54,14 @@
   }
 }
 
+.order-btn__icon {
+  fill: var(--white-color);
+  .hero__button:hover &,
+  .hero__button:focus & {
+    fill: var(--accent-color);
+  }
+}
+
 .hero__list-wrap {
   display: flex;
   justify-content: flex-end;
