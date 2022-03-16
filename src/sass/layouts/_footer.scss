@@ -64,3 +64,25 @@
   margin-left: 25px;
   margin-top: 25px;
 }
+
+.contacts-list__link {
+  transition: fill 0.25s linear;
+  &:hover,
+  &:focus {
+    fill: var(--accent-color);
+  }
+}
+
+.footer-list__link {
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
+  }
+}
+
+.footer-navigation__mail {
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
+  }
+}
