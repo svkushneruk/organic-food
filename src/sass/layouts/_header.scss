@@ -5,8 +5,24 @@
 
 .header__wrap {
   display: flex;
+  flex-direction: column;
   align-items: center;
-  justify-content: space-between;
+  @media screen and (min-width: 728px) {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+.mobile-menu-btn {
+  @media screen and (min-width: 728px) {
+    display: none;
+  }
+}
+
+.site-navigation {
+  @media screen and (max-width: 767px) {
+    display: none;
+  }
 }
 
 .site-navigation__list {
@@ -43,13 +59,21 @@
 }
 
 .site-actions {
-  display: flex;
-  align-items: center;
+  @media screen and (min-width: 728px) {
+    display: flex;
+    align-items: center;
+  }
 }
 
 .site-actions__btns {
   display: flex;
-  margin-right: 32px;
+  justify-content: center;
+  @media screen and (max-width: 767px) {
+    margin-bottom: 30px;
+  }
+  @media screen and (min-width: 728px) {
+    margin-right: 32px;
+  }
 }
 
 .site-actions__btn {
